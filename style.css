@@ -1,0 +1,96 @@
+#header
+{
+	color: red;
+    width: 1200px;
+	margin: 0px auto;
+	background-color: white;
+	text-align: center;
+	align-content: center;
+	font-size: 280%;
+	offsetHeight: 25px;
+}
+
+
+
+body
+{
+	background-color: orange;
+}
+
+#menuNavigation { position: absolute;
+      top: 0px; /*hauteur du header*/
+      width: 1170px; /*largeur du menu*/
+      margin: 0px auto; /*décale la moitié du menu vers la gauche pour le placer au centre*/
+      propriete : valeur;
+			border: 2px;
+			background-color: white;
+			text-align: center;
+			align-content: center;
+      border: 4mm ridge rgba(0, 0, 0, .6);
+}
+
+#menuNavigation.fixe { position: fixed;
+      top: -15px;
+      propriete : valeur;
+}
+
+
+
+
+span.titre{
+	color: red;
+	font-size: 280%;
+}
+
+/*medium+ screen sizes*/
+@media (min-width:992px) {
+.desktop-only {
+display:block !important;
+}
+.mobile-only {
+display:none !important;
+}
+}
+
+/*small screen sizes*/
+@media (max-width: 991px) {
+.mobile-only {
+display:block !important;
+}
+
+.desktop-only {
+display:none !important;
+}
+}
+
+#proposition
+{
+	color: black;
+    width: 1200px;
+	margin: 100px auto;
+	background-color: white;
+	text-align: left;
+	align-content: center;
+  font-family: Times New Roman, serif;
+  font-size: 180%;
+}
+
+span.rdv{
+	color: red;
+  font-size: 230%;
+}
+
+span.fin
+{
+	color: black;
+  font-size: 130%;
+}
+
+#Accueil
+{
+	width: 1200px;
+	margin: 0 auto;
+	background-color: white;
+	text-align: left;
+	align-content: center;
+}
